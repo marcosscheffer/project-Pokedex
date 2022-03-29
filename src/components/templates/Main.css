@@ -1,0 +1,90 @@
+* {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-main {
+    border: solid 1px white;
+    margin: 10% 50px;
+    padding: 100px;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cecece;
+    border-radius: 50px;
+}
+
+.sprite {
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    background: url(../../midia/img/background-sprite.jpg) no-repeat;
+    background-position: center;
+    border-radius: 100px;
+    position: sticky;
+    top: 10px;
+}
+
+.sprite img {
+    width: 100%;
+}
+
+.info {
+    border: 1px solid black;
+    width: 500px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.info h2 {
+    color: #6a6a6a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+
+.info h3 {
+    margin-top: 20px;
+    color: blue;
+    
+}
+
+.info h4 {
+    color: green;
+}
+
+.skills {
+    overflow: scroll;
+    
+    color: black;
+    background-color: #cecece;
+    border-radius: 50px;
+    height: 500px;
+    width: 200px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.skills::-webkit-scrollbar {
+    display: none;
+}
+
+.characteristics {
+    background-color: #cecece;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.characteristics div { 
+    padding: 10px;
+    overflow: scroll;
+}
+
+.characteristics div::-webkit-scrollbar {
+    display: none;
+}
+
+
