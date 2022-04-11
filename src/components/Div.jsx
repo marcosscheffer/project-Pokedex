@@ -15,4 +15,4 @@ export default function divs(props) {
             {props.custom ? customOn() : customOff()}
         </div>
     )
-    }
+}

@@ -1,3 +1,11 @@
+@media(max-width: 576px) {
+  .main {
+    border: none;
+    border-right: none;
+    border-left: none;
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

@@ -1,3 +1,4 @@
+
 * {
     color: black;
     font-family: 'Courier New', Courier, monospace;
@@ -86,5 +87,7 @@
 .characteristics div::-webkit-scrollbar {
     display: none;
 }
+
+
 
 
